@@ -1,0 +1,265 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(211,211,211);
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+head {
+  display: none;
+}
+div {
+display: block;
+}
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: rgb(169,169,169);
+}
+.header-logo{
+  display: flex;
+}
+p {
+  display: block;
+}
+.colmar {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.academy {
+  text-transform: uppercase;
+  color: white;
+}
+#desktop {
+  display: block;
+}
+#desktop a{
+  margin-left: 16px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#mobile {
+  display: none;
+}
+#learn {
+  padding: 32px 24px;
+  display: flex;
+}
+.img-banner {
+  width: 60%;
+  height: auto;
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
+.text-learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-left: 40px;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  line-height: 1.8rem;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+button {
+  background-color: rgb(169,169,169);
+  color: white;
+  font-size: 1rem;
+  padding: 8px 0;
+  border: 2px solid white;
+}
+#practice {
+  display: flex;
+}
+.practice-main {
+  padding: 32px 24px;
+  background-color:rgb(169,169,169);
+  border: 1px solid white;
+}
+.img-practice {
+  width: 100%;
+  height: auto;
+}
+.quoted {
+  margin: 20px 0;
+  font-weight: bold;
+}
+.campus-info {
+  min-width: 423px;
+}
+.campus-info-one {
+  display: flex;
+  min-height: 168px;
+  border-bottom: 1px solid white;
+}
+.holder-img-campus-info {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+
+}
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+.img-campus-info-mobile {
+  display: none;
+}
+.campus-info-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+
+}
+#practice h3 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+#practice h4 {
+  font-family: sans-serif;
+  font-size: .7rem;
+  margin: 8px 0;
+}
+#practice a {
+  text-decoration: underline;
+}
+h4 {
+  display: block;
+}
+#learning {
+  padding-bottom: 16px;
+}
+#learning h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+.course {
+  background-color: rgb(169,169,169);
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+.holder-course-img {
+  width: 100%;
+  height: auto;
+}
+.course-img {
+  width: 100%;
+  height: auto;
+}
+.course-text {
+  padding-left: 16px 16px;
+}
+#learning h2 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+#learning h3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+.thesis {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.video {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+video {
+  height: auto;
+  width: 100%;
+}
+.thesis-text {
+  margin: 24px 0 32px 24px;
+}
+#thesis h3 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.thesis-text p {
+  margin-top: 16px;
+}
+#thesis h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+.thesis-info {
+  min-width: 423px;
+  margin-left: 16px;
+}
+.thesis-info-fisma {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+.thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+.thesis-image {
+  width: 100%;
+  height: auto;
+}
+.thesis-info-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+.thesis-info-research {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+footer {
+  background-color: rgb(169,169,169);
+  color: black;
+  padding: 0 24px;
+  display: flex;
+  border-top: 2px solid white;
+  justify-content: space-between;
+}
+.copyright {
+  display: block;
+  padding: 16px 0;
+}
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
